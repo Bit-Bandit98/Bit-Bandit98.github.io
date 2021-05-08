@@ -1,0 +1,154 @@
+.Empty {
+	padding: 25px;
+	background-color: #c80000;
+}
+
+.SplashPage {
+  background-color: #262626;
+  
+}
+
+.NavBar a {
+	font-size: 200%;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.NavBar a:link, .NavBar a:visited {
+	color: white;
+	
+}
+button a {
+	text-decoration: none;
+}
+a:hover {
+	opacity: 50%;
+}
+
+.Showreel{
+	background-color: #c80000;
+	height: 1000px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.Showreel iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.AboutMe {
+	background-color: #262626;
+}
+
+.NavBar {
+	background-color: #262626;
+	padding: 0px;
+}
+
+.ProjectsDescription {
+	background-color: #c80000;
+}
+
+.Projects {
+	background-color: #262626;
+	height: auto;
+}
+
+.Resume {
+	background-color: #c80000;
+}
+
+.Contact {
+	background-color: #262626;
+}
+
+.ProfilePhoto {
+	border-radius: 100%;
+
+	
+}
+
+.Responsive, p, image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+body{
+	color: white;
+}
+
+section{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	text-align: center;
+	
+}
+.Projects img {
+	padding: 50px;
+}
+
+.Projects img:hover {
+	opacity: 40%;
+}
+.Video {
+	
+	background-color: #262626; 
+}
+
+.ProjectTitle {
+	max-width: 50%;
+	padding-left: 200px;
+	padding-right: auto;
+	background-color: #c80000;
+	display: block;
+	
+}
+
+.ProjectsIntro {
+	background-color: #c80000;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+
+h1, h2{
+	font-size: 400%;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 150%;
+    width: 900px;	
+}
+
+button {
+	border-radius: 20px;
+	font-size: 175%;
+	font-family: 'Merriweather Sans', sans-serif;
+	border: 2px solid white;
+	background: white;
+}
+
+button:hover{
+	background: #e7e7e7;
+	border: 2px solid #e7e7e7;
+}
+
+html, body {
+    margin: 0px;
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: #262626;
+} 
+
+@font-face{
+font-family: 'Merriweather Sans', sans-serif;
+}
