@@ -16,8 +16,12 @@
 
 .NavBar a:link, .NavBar a:visited {
 	color: white;
-	
 }
+
+button a, button a:visited{
+	color:black;
+}
+
 button a {
 	text-decoration: none;
 }
@@ -65,13 +69,19 @@ a:hover {
 
 .ProfilePhoto {
 	border-radius: 100%;
+	width: 15%;
+}
 
+.Responsive, p {
+	max-width: auto;
+	max-height: auto;
 	
 }
 
-.Responsive, p, image {
-	max-width: 100%;
-	max-height: 100%;
+img {
+max-width: 50%;
+  height: auto;
+  
 }
 
 body{
@@ -89,7 +99,8 @@ section{
 }
 
 .Projects img:hover {
-	opacity: 40%;
+	
+	filter: blur(0.30rem);
 }
 .Video {
 	
@@ -114,7 +125,9 @@ section{
 
 
 h1, h2{
-	font-size: 400%;
+	/*font-size: 400%;*/
+	font-size:3.5vw;
+	
 }
 
 table{
@@ -126,13 +139,13 @@ p {
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
-	font-size: 150%;
-    width: 900px;	
+	font-size: 1.25vw;
+    width: 50%;	
 }
 
 button {
 	border-radius: 20px;
-	font-size: 175%;
+	font-size: 1vw;
 	font-family: 'Merriweather Sans', sans-serif;
 	border: 2px solid white;
 	background: white;
@@ -145,7 +158,7 @@ button:hover{
 
 html, body {
     margin: 0px;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif, arial;
 	background-color: #262626;
 } 
 
