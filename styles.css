@@ -9,7 +9,7 @@
 }
 
 .NavBar a {
-	font-size: 200%;
+	font-size: 2vw;
 	padding-right: 100px;
 	padding-left: 100px;
 }
@@ -88,7 +88,7 @@ body{
 
 section{
 	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	text-align: center;
 	
 }
@@ -134,7 +134,7 @@ section{
 
 h1, h2{
 	/*font-size: 400%;*/
-	font-size:2.5vw;
+	font-size:3.5vw;
 	
 }
 
@@ -147,16 +147,18 @@ p {
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
-	font-size: 1.25vw;
+	font-size: 1.75vw;
     width: 50%;	
 }
+
+
 footer {
 	font-size:1vw;
 }
 
 button {
 	border-radius: 20px;
-	font-size: 1vw;
+	font-size: 1.5vw;
 	font-family: 'Merriweather Sans', sans-serif;
 	border: 2px solid white;
 	background: white;
