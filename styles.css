@@ -133,6 +133,7 @@ section{
 .ProjectDescription {
 	font-size:1.5vw;
 	background-color: #c80000;
+	padding: 50px;
 }
 
 .ProjectsSection {
@@ -160,7 +161,7 @@ p {
 }
 
 
-footer {
+footer, address p{
 	font-size:1vw;
 }
 
