@@ -121,7 +121,7 @@ section{
 
 .ProjectTitle {
 	max-width: 50%;
-	padding-left: 200px;
+	padding-left: auto;
 	padding-right: auto;
 	background-color: #c80000;
 	font-size:2vw;
