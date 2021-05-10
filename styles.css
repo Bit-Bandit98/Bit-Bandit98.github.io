@@ -42,6 +42,12 @@ a:hover {
 	height: 100%;
 }
 
+.Video iframe {
+	
+	width: 50%;
+	
+}
+
 .AboutMe {
 	background-color: #262626;
 }
