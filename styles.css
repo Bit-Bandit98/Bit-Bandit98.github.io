@@ -36,9 +36,9 @@ a:hover {
 
 .Showreel{
 	background-color: #c80000;
-	height: 1000px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	height: 50vw;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
 	
 }
 
@@ -95,8 +95,8 @@ max-width: 50%;
   
 }
 .SplashPage img {
-	width: 50vw;
-	height:25vw;
+	width: 75%;
+	height:75%;
 }
 body{
 	color: white;
@@ -133,14 +133,14 @@ section{
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #c80000;
-	font-size:2vw;
+	font-size:3vw;
 	display: block;
 	text-align: center;
 	
 }
 
 .ProjectDescription {
-	font-size:1.5vw;
+	font-size:2vw;
 	background-color: #c80000;
 	padding: 1%;
 }
@@ -165,13 +165,13 @@ p {
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
-	font-size: 2vw;
-    width: 50%;	
+	font-size: 3vw;
+    width: 75%;	
 }
 
 
 footer, address p{
-	font-size:1vw;
+	font-size:2vw;
 }
 
 button {
