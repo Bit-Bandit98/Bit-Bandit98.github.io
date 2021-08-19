@@ -36,7 +36,7 @@ a:hover {
 
 .Showreel{
 	background-color: #c80000;
-	height: 50vw;
+	height: 45vw;
 	padding-top: 0.5vw;
 	padding-bottom: 0.5vw;
 	
@@ -83,11 +83,7 @@ a:hover {
 	width: 15%;
 }
 
-.Responsive, p {
-	max-width: 100%;
-	max-height: 100%;
-	
-}
+
 
 img {
 max-width: 50%;
@@ -165,8 +161,10 @@ p {
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
-	font-size: 3vw;
+	font-size: 2vw;
     width: 75%;	
+	max-width: 100%;
+	max-height: 100%;
 }
 
 
