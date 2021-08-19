@@ -49,7 +49,9 @@ a:hover {
 
 .Video iframe {
 	
-	width: 50%;
+	width: 85vh;
+    height: 50vh;
+	
 	
 }
 
@@ -137,7 +139,7 @@ section{
 .ProjectDescription {
 	font-size:1.5vw;
 	background-color: #c80000;
-	padding: 50px;
+	padding: 1%;
 }
 
 .ProjectsSection {
