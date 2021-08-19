@@ -94,7 +94,10 @@ max-width: 50%;
   height: auto;
   
 }
-
+.SplashPage img {
+	width: 50vw;
+	height:25vw;
+}
 body{
 	color: white;
 }
