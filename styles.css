@@ -49,7 +49,7 @@ a:hover {
 
 .Video iframe {
 	
-	width: 85vh;
+	width: 50%;
     height: 50vh;
 	
 	
@@ -162,7 +162,7 @@ p {
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
-	font-size: 1.75vw;
+	font-size: 2vw;
     width: 50%;	
 }
 
