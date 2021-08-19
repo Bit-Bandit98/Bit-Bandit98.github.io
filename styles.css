@@ -1,5 +1,5 @@
 .Empty {
-	padding: 25px;
+	padding: 1vw;
 	background-color: #c80000;
 }
 
@@ -10,8 +10,8 @@
 
 .NavBar a {
 	font-size: 2vw;
-	padding-right: 100px;
-	padding-left: 100px;
+	padding: 1vw;
+	
 }
 
 .NavBar a:link, .NavBar a:visited {
@@ -100,7 +100,7 @@ body{
 }
 
 section{
-	padding: 50px 0px;
+	padding: 1vw 0vw;
 	text-align: center;
 	
 }
@@ -121,8 +121,8 @@ section{
 
 .ProjectsIntro {
 	background-color: #c80000;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 }
 
 .ProjectTitle {
