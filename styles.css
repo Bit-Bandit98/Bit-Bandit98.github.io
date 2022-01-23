@@ -79,8 +79,9 @@ a:hover {
 }
 
 .ProfilePhoto {
-	border-radius: 100%;
+	border-radius: 10%;
 	width: 15%;
+	margin-top: 100px;
 }
 
 
