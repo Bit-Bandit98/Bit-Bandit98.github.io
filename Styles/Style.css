@@ -164,3 +164,33 @@ strong {
 	width:100%;
 }
 
+@media screen and (max-width: 480px){
+	
+	h1 {
+		font-size: 6vw;
+	}
+	
+	h2 {
+		font-size: 5vw;
+	}
+	
+	
+	p{
+		font-size: 3vw;
+	}
+	.GameLink{
+	font-size: 3vw;
+	color:white;
+	}
+	
+	.NavBar .button{
+	
+	font-size: 5vw;
+	color:white;
+	max-width:100%;
+	height: auto;
+	background-color: #262626;
+	
+	}
+	
+}
