@@ -43,7 +43,7 @@ h2 {
 p {
 	padding-left: 25%;
 	padding-right: 25%;
-	font-size: 1.5vw;
+	font-size: 1.75vw;
 }
 
 a img {
@@ -128,7 +128,7 @@ strong {
 
 
 .ProfilePhoto {
-	border-radius: 100px;
+	border-radius: 15%;
 	max-width:20%;
 }
 .RedBackground {
