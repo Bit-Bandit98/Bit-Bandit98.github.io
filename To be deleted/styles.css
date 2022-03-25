@@ -137,9 +137,10 @@ section{
 }
 
 .ProjectDescription {
-	font-size:2vw;
+	font-size:1.5vw;
 	background-color: #c80000;
-	padding: 1%;
+	padding: 2.5%;
+	width:95%;
 }
 
 .ProjectsSection {

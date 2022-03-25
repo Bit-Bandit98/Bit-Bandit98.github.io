@@ -1,47 +1,40 @@
 <!DOCTYPE HTML>
 <html lang="en-au" dir="ltr">
+<link rel="stylesheet" href="Styles/Style.css">
 <head> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
 <title>Game Developer | Bit Bandit </Title>
-<script src="HomeJava.js"></script>
-<link rel="stylesheet" href="./styles.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="icon" type="image/png" href="images/favicon.png"/>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<section class="Empty"> </section>
-<section class="NavBar" id="StickNav">
+<section class ="NavBar RedBackground">
 <nav> 
-<a href="index.html">Home</a>
-<a href="projects.html">Projects</a>
-<a href="https://medium.com/@ryannealewallace">Blog</a>
+<!-- <img class="NavImage" src ="../images/NavBarLogo.png" alt="Bit Bandit Logo"> -->
+<a class ="button"href="index.html"><strong>Home</strong></a>
+<a class ="button"href="projects.html"><strong>Projects</strong></a>
+<a class ="button"href="https://medium.com/@ryannealewallace"><strong>Blog</strong></a>
 </nav>
 </section>
 
 <main> 
-<section class="SplashPage Responsive">
+<section class="GrayBackground">
 <header> 
-<image src="images/SplashLogo.png" alt="Bit Bandit Logo" class="Responsive">
+<img class="Responsive" src="images/SplashLogo.png" alt="Bit Bandit Logo">
 <h1> <strong>Game Developer</strong> </h1>
 <p>Here I'll take you on a magical adventure, telling you about myself, and what I've worked on. </p>
 <p> Let's get to know each other! </p> 
-<button> <a href="#ShowreelVideo">Let's Go!  </button>
+<a class = "button" href="#ShowreelSection"> Let's Go! </a>
 </header>
 </section>
 </main>
 
-<a id="ShowreelVideo"></a>
-<section class="Showreel Responsive">
-<iframe width="1000" height="1000" src="https://www.youtube.com/embed/NTgg2IwV31o" title="YouTube video player" frameborder="0" allow="accelerometer;
+<section id="ShowreelSection" class ="RedBackground">
+<iframe class ="FullVideo" width="1000" height="1000" src="https://www.youtube.com/embed/NTgg2IwV31o" title="YouTube video player" frameborder="0" allow="accelerometer;
  autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 </section>
  
-<section class="AboutMe Responsive">
-<image class="ProfilePhoto" src="images/ProfilePhoto.png" alt="Ryan Wallace profile photo" width="300" height="300">
+<section class="GrayBackground">
+<img class="ProfilePhoto Responsive" src="images/ProfilePhoto.png" alt="Ryan Wallace profile photo" width="388.8" height="518.4">
 <h2> <strong>Ryan Wallace</strong> </h2>
 <p> Heya! Name's Ryan. I love games, making games, and just learning new ways to better myself professionally and personally.
  I always strive to go above and beyond in whats required when not just creating games, but fulfilling any task necessary.
@@ -49,43 +42,44 @@
 </p>
 </section>
 
-<section class="ProjectsSection Responsive">
+<section class="RedBackground">
 <h2> <strong>Projects</strong> </h2>
 <p> Here are some pretty cool stuff I've worked on over the years. From physics and path-finding demos to a zombie shooter and a physics puzzler. </p>
 <p> Click the thumbnail of a project to find more in-depth information regarding that project. </p> 
 </section>
 
-<section class="Projects Responsive">
+<section class = "GrayBackground">
 <table>
 <tr>
 <td> 
-<a href="projects.html"><image src="images/Dogma.png" alt="Screenshot of Dogma" width="800" height="450"></a>
+<a href="Projects/Dogma.html"><img src="images/Dogma.png" alt="Screenshot of Dogma" width="800" height="450"></a>
 </td>
 </tr>
 <tr>
 <td> 
-<a href="projects.html"><image src="images/PlanetJumper.png" alt="Screenshot of Planet Jumper" width="800" height="450"></a>
-<a href="projects.html"><image src="images/HordeSlayer.png" alt="Screenshot of Horde Slayer" width="800" height="450"></a>
-<a href="projects.html"><image src="images/Stasis.png" alt="Screenshot of Stasis" width="800" height="450"></a>
+<a href="Projects/PlanetJumper.html"><img src="images/PlanetJumper.png" alt="Screenshot of Planet Jumper" width="800" height="450"></a>
+<a href="Projects/HordeSlayer.html"><img src="images/HordeSlayer.png" alt="Screenshot of Horde Slayer" width="800" height="450"></a>
+<a href="Projects/Stasis.html"><img src="images/Stasis.png" alt="Screenshot of Stasis" width="800" height="450"></a>
 </td>
-</tr><tr>
+</tr>
+<tr>
 <td> 
-<a href="projects.html"><image src="images/Pushing.png" alt="Screenshot of Pushing" width="800" height="450"></a>
-<a href="projects.html"><image src="images/Pathfinding.png" alt="Screenshot of Pathfinding" width="800" height="450"></a>
-<a href="projects.html"><image src="images/TerminalHacker.png" alt="Screenshot of Terminal Hacker" width="800" height="450"></a>
+<a href="Projects/Pushing.html"><img src="images/Pushing.png" alt="Screenshot of Pushing" width="800" height="450"></a>
+<a href="Projects/Pathfinding.html"><img src="images/Pathfinding.png" alt="Screenshot of Pathfinding" width="800" height="450"></a>
+<a href="Projects/TerminalHacker.html"><img src="images/TerminalHacker.png" alt="Screenshot of Terminal Hacker" width="800" height="450"></a>
 </td>
 </tr>
 </table>
 
 </section>
 
-<section class="Resume Responsive">
+<section class = "RedBackground">
 <h2><strong>Resume</strong></h2>
 <p>Wanna learn more about me and my particular set of skills? Have a geez at my resume.</p>
-<button><a href="files/Resume.pdf" download> Download (PDF) </a> </button>
+<a class="button"href="files/Resume.pdf"Download> Download (PDF) </a>
 </section>
 
-<section class="Contact Responsive">
+<section class = "GrayBackground">
 <h2><strong> Shoot me a message</strong> </h2>
 <p> Interested in learning more about my work or just wanna talk about the wonders of the universe? Hit me up. </p>
 <p> ༼ つ ◕_◕ ༽つ </p>
@@ -93,7 +87,7 @@
 <p> PO Box: 1292, Wollongong NSW 2500 </p>
 <p><a href="mailto:ryannealewallace@gmail"> ryannealewallace@gmail.com </a></p>
 <footer>
-©2022 by Bit Bandit.
+<p> ©2022 by Bit Bandit </p>
 </footer>
 </address>
 
