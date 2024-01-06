@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-	font-size:1.5vw;
+	font-size:1.25vw;
 }
 
 p {
@@ -65,8 +65,9 @@ a img:hover {
 }
 
 address p a {
+	font-weight: bold;
 	color:white;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 strong {
@@ -92,7 +93,7 @@ strong {
 }
 .ArticleTitle {
 	
-	font-size:1.5vw;
+	font-size:1.25vw;
 }
 
 
