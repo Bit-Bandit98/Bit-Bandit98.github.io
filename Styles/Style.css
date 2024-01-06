@@ -55,7 +55,7 @@ a img {
 	border: 5px solid #c80000;
 	padding: 0px;
 	margin: 25px;
-	max-width:50%;
+	max-width:60%;
 	
 	
 }
@@ -75,7 +75,7 @@ strong {
 }
 
 .Article a img{
-	max-width: 75%;
+	max-width: 60%;
 	
 }
 .LinkedInLink {
@@ -240,6 +240,21 @@ strong {
 	.ArticleTitle {
 	
 	font-size:3vw;
+}
+
+a img {
+	border-radius: 25px;
+	border: 5px solid #c80000;
+	padding: 0px;
+	margin: 25px;
+	max-width:80%;
+	
+	
+}
+
+.Article a img{
+	max-width: 80%;
+	
 }
 	
 }
