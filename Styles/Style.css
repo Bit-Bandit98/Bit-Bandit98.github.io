@@ -168,8 +168,11 @@ strong {
 
 
 .ProfilePhoto {
-	border-radius: 15%;
+
 	max-width:20%;
+	padding: 0%;
+	border: 3px solid black;
+	
 }
 .RedBackground {
 	background-color: #810000;
