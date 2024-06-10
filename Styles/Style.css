@@ -60,6 +60,7 @@ a img {
 	
 }
 
+
 a img:hover {
 	border: 5px solid white;
 }
@@ -106,9 +107,13 @@ strong {
 	color:white;
 }
 .ProjectTitle {
-	background-color: #c80000;
+	background-color: #810000;
 	width: 100%;
 	text-align: center;
+}
+
+.ProjectDescription {
+	text-align: left;
 }
 
 .button {
@@ -120,7 +125,7 @@ strong {
   text-decoration: none;
   display: inline-block;
   font-size: 1vw;
-  border-radius: 25px;
+  border-radius: 0px;
   
 }
 
@@ -167,7 +172,7 @@ strong {
 	max-width:20%;
 }
 .RedBackground {
-	background-color: #c80000;
+	background-color: #810000;
 	width: 100%;
 	
 	
@@ -189,14 +194,27 @@ strong {
 	
 }
 
+iframe{
+	border: 3px solid black
+}
+
 #Video iframe {
 	max-width:100%;
+	width: 1920px;
+	height: 1080px;
 	
 	
 }
 #ShowreelSection{
 	padding: 10px 0px;
 	width:100%;
+}
+
+#LinkToGameButton{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 40%;
 }
 
 @media screen and (max-width: 800px){
