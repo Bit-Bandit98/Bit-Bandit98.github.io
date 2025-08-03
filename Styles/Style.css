@@ -27,9 +27,7 @@ table {
 
 img{
 	
-	max-width:100%;
 	
-	height: auto;
 }
 
 h1 {
@@ -76,9 +74,13 @@ strong {
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
-.Article a img{
+.Projects a img {
+	width:1000px;
+	height: 300px;
+}
+
+.Article a img {
 	max-width: 60%;
-	
 }
 .LinkedInLink {
 	
@@ -286,6 +288,16 @@ a img {
 	
 	
 }
+
+	#BitBanditLogo {
+		width: 175px;
+		height: 175px;
+	}
+
+	.Projects a img {
+		width: 250px;
+		height: 75px;
+	}
 
 .Article a img{
 	max-width: 80%;
