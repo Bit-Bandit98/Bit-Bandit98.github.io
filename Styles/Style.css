@@ -297,6 +297,7 @@ a img {
 	.Projects a img {
 		width: 250px;
 		height: 75px;
+		max-width: 80%
 	}
 
 .Article a img{
