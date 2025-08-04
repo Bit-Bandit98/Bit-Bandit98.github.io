@@ -23,7 +23,11 @@ section {
 
 table {
 	margin:0px auto;
+	table-layout: fixed;
+	width:80%;
 }
+
+
 
 img{
 	
@@ -155,7 +159,7 @@ strong {
 	max-width:100%;
 	height: auto;
 	background-color: #262626;
-	border-radius: 25px 25px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
 	
 
 }
@@ -239,11 +243,17 @@ iframe{
 	}
 	
 	h2 {
-		font-size: 5vw;
+		font-size: 3.5vw;
 	}
 	
 	h3 {
-		font-size: 3vw;
+		font-size: 2.5vw;
+		align-content: center;
+	}
+
+	td{
+	vertical-align: top;
+	vertical-align: central;
 	}
 	
 	p{
@@ -271,7 +281,7 @@ iframe{
 	
 	.NavBar .button{
 	
-	font-size: 5vw;
+	font-size: 4vw;
 	color:white;
 	max-width:100%;
 	height: auto;
@@ -312,11 +322,13 @@ a img {
 	.Projects a img {
 		width: 250px;
 		height: 100px;
+		margin: 0px;
 		object-fit: cover;
 	}
 
 .Article a img{
 	max-width: 80%;
+
 	
 }
 	
