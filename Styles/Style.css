@@ -77,6 +77,7 @@ strong {
 .Projects a img {
 	width:1000px;
 	height: 300px;
+	object-fit: cover;
 }
 
 .Article a img {
@@ -226,6 +227,11 @@ iframe{
 	width: 40%;
 }
 
+#BitBanditLogo {
+	width: 15%;
+	height: 15%;
+}
+
 @media screen and (max-width: 800px){
 	
 	h1 {
@@ -294,15 +300,19 @@ a img {
 	
 }
 
+
+
 	#BitBanditLogo {
-		width: 175px;
-		height: 175px;
+		width: 35%;
+		height: 35%;
 	}
+
+	
 
 	.Projects a img {
 		width: 250px;
-		height: 75px;
-		max-width: 80%
+		height: 100px;
+		object-fit: cover;
 	}
 
 .Article a img{
